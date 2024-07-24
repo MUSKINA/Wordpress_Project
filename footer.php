@@ -102,7 +102,7 @@
         <script src="<?php bloginfo('template_directory')?>/lib/owlcarousel/owl.carousel.min.js"></script>
 
         <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+        <script src="<?php bloginfo('template_directory')?>/js/main.js"></script>
     </body>
 </html>
 <?php get_footer();?>

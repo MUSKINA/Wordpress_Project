@@ -1,4 +1,5 @@
-<?php get_header(); ?>
+<?php get_header();
+echo "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii" ?>
 
         <!-- Modal Search Start -->
         <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
