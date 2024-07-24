@@ -42,22 +42,22 @@
                             <h4 class="mb-4">Social Gallery</h4>
                             <div class="row g-2">
                                 <div class="col-4">
-                                     <img src="img/menu-01.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                     <img src="<?php bloginfo('template_directory')?>/img/menu-01.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                                 <div class="col-4">
-                                     <img src="img/menu-02.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                     <img src="<?php bloginfo('template_directory')?>/img/menu-02.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                                 <div class="col-4">
-                                     <img src="img/menu-03.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                     <img src="<?php bloginfo('template_directory')?>/img/menu-03.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                                 <div class="col-4">
-                                     <img src="img/menu-04.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                     <img src="<?php bloginfo('template_directory')?>/img/menu-04.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                                 <div class="col-4">
-                                     <img src="img/menu-05.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                     <img src="<?php bloginfo('template_directory')?>/img/menu-05.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                                 <div class="col-4">
-                                     <img src="img/menu-06.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                     <img src="<?php bloginfo('template_directory')?>/img/menu-06.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                             </div>
                         </div>
@@ -94,14 +94,15 @@
         <!-- JavaScript Libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="<?php bloginfo('template_directory')?>/lib/wow/wow.min.js"></script>
+        <script src="<?php bloginfo('template_directory')?>/lib/easing/easing.min.js"></script>
+        <script src="<?php bloginfo('template_directory')?>/lib/waypoints/waypoints.min.js"></script>
+        <script src="<?php bloginfo('template_directory')?>/lib/counterup/counterup.min.js"></script>
+        <script src="<?php bloginfo('template_directory')?>/lib/lightbox/js/lightbox.min.js"></script>
+        <script src="<?php bloginfo('template_directory')?>/lib/owlcarousel/owl.carousel.min.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>
 </html>
+<?php get_footer();?>
